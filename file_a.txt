@@ -1,22 +1,4 @@
-Git házi feladat:
-1. Hozz létre egy mappát a gépeden. Alakítsd working directory-vá.
-2. Adj hozzá egy szöveges fájlt (file_a). A fájl tartalmazza mi az a git és mi az a verziókezelő rendszer. Mik az előnyei?
-3. Git status paranccsal ellenőrizd milyen állapotban van a fájlod.
-4. Hozz létre egy másik szöveges fájlt (file_b), mely tartalmazza a git által kezelt fájlok lehetséges státuszait.
-5. A file_a nevű fájlunkat helyezzük staged státuszba.
-6. Git status paranccsal ellenőrizzük változtatásainkat.
-7. .gitignore segítségével adjuk meg,  hogy file_b ne legyen követve Git által.
-8. File_a-t helyezzük unmodified státuszba "add file_a" üzenettel.
-9. Git status paranccsal ellenőrizzük változtatásainkat.
-10. Hozzunk létre egy mappát (new_dir), majd benne egy szöveges fájlt (file_c), melybe írjuk bele, hogy a Github szükséges része-e a Git-nek.
-11. .gitignore segítségével adjuk meg, hogy a (new_dir) mappa és tartalma ne legyen követve Git által.
-12. Módosítsuk file_a tartalmát. Írjuk bele, hogy mit kéne beleírni a .gitignore-ba, hogy az összes .txt típusú fájlt hagyja figyelmen kívül a Git.
-13. Git status paranccsal ellenőrizzük a workink directory állapotát.
-14. File_a-t commitoljuk újra "add extra information to file_a" üzenettel.
-15. Hozzunk létre egy publikus Github repository-t, majd a gépünkön lévő working directory-t kössük össze vele.
-16. Töltsük föl a megfelelő parancs segítségével a Github repositoryba a lokális repositorynk tartalmát.
-17. A Github repository linkjét küldjük el Kovács Levente mentornak discordon.
-Feladatmegoldás során parancssori utasításokat használj!
+
 
 2. Mi is az a Git?
   A Git egy verziókezelő, arra szolgál, hogy file-ok (programok, dokumentációk, stb) különböző verzióit kordában tartsa, elkönyvelje, tárolja és megossza.
@@ -27,3 +9,5 @@ Feladatmegoldás során parancssori utasításokat használj!
   - szinkronizálni tud egy másik gépen levő hasonló könyvtárral, közben intelligensen átvezeti a változásokat, illetve jelez, ha nem megy neki.
 
   A Gitnek megvan az a további előnye, hogy mindezt tudja titkosított csatornán (ssh-n keresztül) csinálni.
+
+12. *.txt
